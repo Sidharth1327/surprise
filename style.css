@@ -1,0 +1,28 @@
+
+body {
+    background: linear-gradient(120deg, #ffe0ec, #fcd5ce);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px;
+    color: #333;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.friend-photo {
+    width: 80%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+.message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.confetti {
+    font-size: 2em;
+}
