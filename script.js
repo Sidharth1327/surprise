@@ -1,6 +1,13 @@
-// You can add some fun interactive animation here
 document.addEventListener('DOMContentLoaded', () => {
     console.log("Birthday surprise loaded!");
+
+    // Try to autoplay the birthday song
+    const audio = document.getElementById('birthday-song');
+    if (audio) {
+        audio.play().catch(() => {
+            console.log('Autoplay blocked by browser, waiting for user interaction.');
+        });
+    }
 
     // Confetti creation function
     function createConfettiPiece() {
